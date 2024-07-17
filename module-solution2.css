@@ -1,0 +1,64 @@
+.row{
+ 
+    width: 100%;
+}
+
+
+@media(min-width:992px){
+    .col-lg-4{
+        float: left;
+        border: 2px dashed;
+        background-color:khaki;
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+         margin: 10px;  
+         width: 31%;
+    }
+   
+}      
+  
+
+ *{
+box-sizing: border-box; 
+
+} 
+@media(max-width:991px){
+   .col-md-6{
+        float: left;
+        border: 2px dashed;
+        background-color:khaki;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        width: 46%;
+         margin: 10px; 
+    }
+  }
+    
+   #Ch{
+    position: absolute relative;
+    margin: 0%;
+    float: right;
+    width: 25%;
+    background-color: sandybrown;
+    background-size: 50px;
+    
+   
+   }
+   #Be{
+    position: absolute relative;
+    margin: 0%;
+    float: right;
+    width: 25%;
+    background-color: sienna;
+    
+   
+   }
+   #So{
+    position: top left absolute relative;
+    float: right;
+    width: 25%;
+    margin: 0%;
+    background-color: seagreen;
+    
+   }
+   h1{
+    text-align: center;
+   }
